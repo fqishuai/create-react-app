@@ -1,7 +1,7 @@
 {
-  "name": "@rf/react-scripts",
-  "version": "5.0.1",
-  "description": "scripts-version: @rf/react-scripts. Tweak the create-react-app webpack config(s) without using 'eject'.",
+  "name": "@rawlinsfeng/react-scripts",
+  "version": "0.1.0",
+  "description": "Create React App with scripts-version: @rawlinsfeng/react-scripts.",
   "repository": {
     "type": "git",
     "url": "https://github.com/fqishuai/create-react-app.git",

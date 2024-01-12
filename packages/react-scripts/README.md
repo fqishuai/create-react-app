@@ -1,7 +1,22 @@
-# react-scripts
+# @rawlinsfeng/react-scripts
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).<br>
-Please refer to its documentation:
+The following features have been added based on react-scripts, which includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).
+1. `postcss-px-to-viewport`
 
-- [Getting Started](https://facebook.github.io/create-react-app/docs/getting-started) – How to create a new app.
-- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
+## Usage
+```bash
+# npx
+npx create-react-app my-app --scripts-version @rawlinsfeng/react-scripts
+# yarn
+yarn create react-app my-app --scripts-version @rawlinsfeng/react-scripts
+# pnpm
+pnpm create react-app my-app --scripts-version @rawlinsfeng/react-scripts
+
+# Creating a TypeScript app
+# npx
+npx create-react-app my-app --scripts-version @rawlinsfeng/react-scripts --template typescript
+# yarn
+yarn create react-app my-app --scripts-version @rawlinsfeng/react-scripts --template typescript
+# pnpm
+pnpm create react-app my-app --scripts-version @rawlinsfeng/react-scripts --template typescript
+```
