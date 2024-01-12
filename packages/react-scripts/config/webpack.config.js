@@ -157,6 +157,14 @@ module.exports = function (webpackEnv) {
                   // so that it honors browserslist config in package.json
                   // which in turn let's users customize the target behavior as per their needs.
                   'postcss-normalize',
+                  // Adds postcss-px-to-viewport
+                  [
+                    'postcss-px-to-viewport',
+                    {
+                      viewportWidth: 750,
+                      exclude: [/node_modules/],
+                    },
+                  ]
                 ]
               : [
                   'tailwindcss',

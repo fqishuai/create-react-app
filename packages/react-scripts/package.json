@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
+  "name": "@rf/react-scripts",
   "version": "5.0.1",
-  "description": "Configuration and scripts for Create React App.",
+  "description": "scripts-version: @rf/react-scripts. Tweak the create-react-app webpack config(s) without using 'eject'.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/fqishuai/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=14.0.0"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/fqishuai/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -59,6 +59,7 @@
     "postcss-loader": "^6.2.1",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^7.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
     "prompts": "^2.4.2",
     "react-app-polyfill": "^3.0.0",
     "react-dev-utils": "^12.0.1",
